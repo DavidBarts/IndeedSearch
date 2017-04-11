@@ -1005,7 +1005,7 @@ namespace Mono.Options
 				if (AddSource (ae, argument))
 					continue;
 				if (!Parse (argument, c))
-					Unprocessed (unprocessed, def, c, argument);
+					throw new OptionException("unknown option " + argument, c.OptionName);
 			}
 			if (c.Option != null)
 				c.Option.Invoke (c);

@@ -1,3 +1,10 @@
+This is a .NET console application written in C#. Do not despair, it can
+be run easily on Macintosh or Linux systems if you download and install
+Mono (http://www.mono-project.com/). In fact, it was developed on a Macintosh
+using Mono.
+
+------------------------------------------------------------------------
+
 NAME
 
     IndeedSearch - run an Indeed.com jobs search and optionally
